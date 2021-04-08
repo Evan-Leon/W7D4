@@ -1,19 +1,29 @@
 .main-nav {
   display: flex;
   justify-content: space-between;
-
+  padding: 10px;
 }
 
 .left-nav > ul,
 .right-nav > ul {
   display: flex;
+  
+}
+
+
+span {
+  padding: 10px;
+  font-size: 10px;
+  font-weight: 700;
+  font-family: $sans-serif;
 }
 
 .left-nav {
 
   > ul {
     > li {
-
+        padding: 0 10px 10px 10px;
+        text-transform: uppercase;
     }
   }
 
@@ -27,7 +37,7 @@
   > ul {
 
     > li {
-  
+        padding: 0 2px 2px 2px;
     }
 
     > li:last-of-type {
