@@ -216,3 +216,81 @@ Started GET "/assets/components/modal.self-52188644dbb47def5ee35ae02e69eb567ca9b
 Started GET "/assets/application.self-f571b9db02bf4ed04c38a6a29072ac382f7d4f47db1fab9817aeadb0d8665235.js?body=1" for ::1 at 2021-04-08 09:56:27 -0500
 Started GET "/assets/components/sidebar.self-2a1277f850a6fa21e1a974ef5152f177ac05516477d5081d593bb137b3d6808b.js?body=1" for ::1 at 2021-04-08 09:56:27 -0500
 Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2021-04-08 09:56:27 -0500
+Started GET "/" for ::1 at 2021-04-08 10:12:45 -0500
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/tahjharris/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (1.6ms)
+  Rendered shared/_masthead.html.erb (2.8ms)
+  Rendered shared/_sections_nav.html.erb (1.4ms)
+  Rendered shared/_search_modal.html.erb (1.6ms)
+  Rendered shared/_main_content.html.erb (1.0ms)
+  Rendered static_pages/index.html.erb within layouts/application (118.9ms)
+Completed 200 OK in 1281ms (Views: 1271.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1" for ::1 at 2021-04-08 10:12:47 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895370466" for ::1 at 2021-04-08 10:22:50 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895370480" for ::1 at 2021-04-08 10:22:50 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895394079" for ::1 at 2021-04-08 10:23:14 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895394082" for ::1 at 2021-04-08 10:23:14 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895396996" for ::1 at 2021-04-08 10:23:17 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895397000" for ::1 at 2021-04-08 10:23:17 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895398525" for ::1 at 2021-04-08 10:23:18 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895398528" for ::1 at 2021-04-08 10:23:18 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895404959" for ::1 at 2021-04-08 10:23:25 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895404964" for ::1 at 2021-04-08 10:23:25 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895408860" for ::1 at 2021-04-08 10:23:28 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895408862" for ::1 at 2021-04-08 10:23:28 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895411207" for ::1 at 2021-04-08 10:23:31 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895411209" for ::1 at 2021-04-08 10:23:31 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895412238" for ::1 at 2021-04-08 10:23:32 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895412245" for ::1 at 2021-04-08 10:23:32 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895424695" for ::1 at 2021-04-08 10:23:44 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895424698" for ::1 at 2021-04-08 10:23:44 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895425907" for ::1 at 2021-04-08 10:23:45 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895425911" for ::1 at 2021-04-08 10:23:45 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895443796" for ::1 at 2021-04-08 10:24:03 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895443798" for ::1 at 2021-04-08 10:24:03 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895450256" for ::1 at 2021-04-08 10:24:10 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895450258" for ::1 at 2021-04-08 10:24:10 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895452806" for ::1 at 2021-04-08 10:24:12 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895452810" for ::1 at 2021-04-08 10:24:12 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895560322" for ::1 at 2021-04-08 10:26:00 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895560325" for ::1 at 2021-04-08 10:26:00 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895700549" for ::1 at 2021-04-08 10:28:20 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895700556" for ::1 at 2021-04-08 10:28:20 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895715769" for ::1 at 2021-04-08 10:28:35 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895715772" for ::1 at 2021-04-08 10:28:35 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895724764" for ::1 at 2021-04-08 10:28:44 -0500
+Started GET "/assets/application.self-6ea32e5fd65e35630570c858277ef20bf6f58a74eff203cd2f4f239de228d4f1.css?body=1&livereload=1617895724767" for ::1 at 2021-04-08 10:28:44 -0500
+Started GET "/" for ::1 at 2021-04-08 10:30:01 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (1.0ms)
+  Rendered shared/_masthead.html.erb (1.5ms)
+  Rendered shared/_sections_nav.html.erb (2.4ms)
+  Rendered shared/_search_modal.html.erb (1.0ms)
+  Rendered shared/_main_content.html.erb (1.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (61.0ms)
+Completed 500 Internal Server Error in 328ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "  width": expected ";", was ": ":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___523894215482696759_70321957995060'
+
+Started POST "/__better_errors/230c6b70fe522872/variables" for ::1 at 2021-04-08 10:30:03 -0500
+Started GET "/" for ::1 at 2021-04-08 10:30:31 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (1.1ms)
+  Rendered shared/_masthead.html.erb (4.4ms)
+  Rendered shared/_sections_nav.html.erb (3.4ms)
+  Rendered shared/_search_modal.html.erb (0.6ms)
+  Rendered shared/_main_content.html.erb (1.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (63.2ms)
+Completed 200 OK in 983ms (Views: 963.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2370faa33b5b262396e4d9174514bad6649259a16e34e349f7321090158566ea.css?body=1" for ::1 at 2021-04-08 10:30:33 -0500
