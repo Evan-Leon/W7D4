@@ -4,6 +4,7 @@
 	align-items: center;
 	border-bottom: 2px solid black;
 	position: relative;
+	border-top: 2px solid $light-gray;
 }
 
 .language-nav {
@@ -15,6 +16,7 @@
 	border-bottom: none;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
+	font-weight: 800;
 
 	a {
 		margin: 0 5px;
@@ -34,11 +36,14 @@
 .logo {
 	max-width: 400px;
 	margin-top: 10px;
+	
 }
 
-li a:hover {
+.masthead li a:hover {
 		text-decoration: underline black;
+		cursor: pointer;
 	}
+
 
 #perc {
 	display:inline;

@@ -1,0 +1,17 @@
+.section_links {
+    display: flex;
+    justify-content: center;
+
+}
+
+.section_links li {
+    padding: 10px 10px 0 10px;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+#all_tag:hover {
+    text-decoration: underline black;
+}
