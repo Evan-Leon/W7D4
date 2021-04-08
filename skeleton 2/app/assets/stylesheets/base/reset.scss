@@ -43,13 +43,16 @@ button {
   appearance: none;
 }
 
+
 button,
 input[type="submit"] {
-  // cursor:
+  cursor: pointer;
 }
 
 /* Clearfix */
 
 .group:after {
-  // ...
+    content: "";
+    display: block;
+    clear: both;
 }
