@@ -36,6 +36,15 @@
 	margin-top: 10px;
 }
 
+li a:hover {
+		text-decoration: underline black;
+	}
+
+#perc {
+	display:inline;
+	color:green;
+}
+
 .masthead-links {
 	display: flex;
 	font-family: $sans-serif;
@@ -60,6 +69,8 @@
 		background-color: $lightest-gray;
 	}
 
+	
+
 	a,
 	button, 
 	time {
@@ -73,4 +84,6 @@
 	strong {
 		color: green;
 	}
+
+
 }
