@@ -1,10 +1,12 @@
 .main-nav {
+  display: flex;
+  justify-content: space-between;
 
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
 }
 
 .left-nav {

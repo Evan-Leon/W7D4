@@ -12,13 +12,23 @@ body {
 	font-size: 12px;
 }
 
-button {
+.nav_buttons {
 	background-color: rgb(130, 130, 206);
 	border-color: white;
 	color: white;
-	font-weight:300;
+	font-weight:700;
 	padding: 5px; 
-	// border-radius:
+	border-radius: 5%;
+
+}
+
+button {
+	background-color: lightgray;
+	border-color: white;
+	color: white;
+	font-weight:700;
+	padding: 5px; 
+	border-radius: 5%;
 	// transition:
 	font-family: $serif;
 	// text-transform:
