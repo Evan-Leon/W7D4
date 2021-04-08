@@ -13,8 +13,8 @@ body {
 }
 
 .nav_buttons {
-	background-color: rgb(130, 130, 206);
-	border-color: white;
+	background-color: $light-blue;
+	border-color: $lightest-gray;
 	color: white;
 	font-weight:700;
 	padding: 5px; 
@@ -23,7 +23,7 @@ body {
 }
 
 button {
-	background-color: lightgray;
+	background-color: $light-gray;
 	border-color: white;
 	color: white;
 	font-weight:700;
