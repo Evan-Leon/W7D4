@@ -1,10 +1,38 @@
 // Use the gear_dropdown.png screenshot as a style guide
 
-#cog_dropdown {
+#cogs_dropdowns {
     position: relative;
+    
 }
 
-.gear_dropdown {
+#gear-dropdown {
     position: absolute;
+    right: 5px;
+    display: none;
+    width: 175px;
+    top: 27px;
+    z-index: 2;
+    background-color: $lightest-gray;
+    opacity: 70%;
+    
+    
 }
 
+
+#cogs_dropdowns:hover #gear-dropdown {
+    display: block;
+}
+
+.dropdown-subtitle {
+    font-weight: 900;
+}
+
+.editions li {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 2px;
+}
+
+.editions {
+    border-bottom: 1px solid $lightest-gray;
+}
